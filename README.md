@@ -137,13 +137,6 @@ Accepts a chest X-ray image and returns a full AI assessment.
 - Python 3.11+
 - pip
 
-### Installation
-```bash
-git clone https://github.com/sharrjeel6636/RadiAI-Pneumonia-Detection.git
-cd RadiAI-Pneumonia-Detection
-pip install -r requirements.txt
-```
-
 ### Run the Server
 ```bash
 uvicorn app.main:app --reload
